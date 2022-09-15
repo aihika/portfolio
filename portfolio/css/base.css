@@ -1,0 +1,29 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6rem;
+  color: #7C7C7C;
+  background-color: #000020;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-border {
+  border-bottom: 2px solid #5E38FF;
+  width: 50px;
+  margin: 20px 0;
+}
+
+.text-border-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+

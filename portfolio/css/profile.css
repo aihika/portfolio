@@ -1,0 +1,146 @@
+.about-me {
+  position: relative;
+}
+
+.about-me-title {
+  float: left;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  color: #5E38FF;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: sticky;
+  top: 35%;
+  left: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.about-me-title:before {
+  border-left: 2px solid #5E38FF;
+  content: "";
+  height: 38vh;
+  margin-bottom: 20px;
+}
+
+.profile {
+  width: 100%;
+  background-color: #080827;
+  padding: 150px 100px;
+}
+
+
+.profile-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profile-image-wrapper {
+  position: relative;
+  width: 450px;
+  min-width: 450px;
+}
+
+.profile-image-border {
+  border: 1px solid #5E38FF;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-right: 100px;
+  margin-bottom: 50px;;
+}
+
+.profile-image {
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  left: -20px;
+
+}
+
+.profile-text {
+  width: 500px;
+}
+
+.profile-title {
+  font-size: 3rem;
+  color: #E0E0E0;
+}
+
+.profile-text-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.kana {
+  font-size: 1.5rem;
+}
+
+.profile-text-birthday {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-text-message {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1149px) {
+  .profile-image-border {
+    margin-right: 0;
+    margin-bottom: 100px;;
+  }
+
+  .profile-text {
+    text-align: center;
+  }
+  
+  .profile-text .text-border {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile-text-message {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .about-me-title {
+    display: none;
+  }
+
+  .profile {
+    width: 100%;
+    background-color: #080827;
+    padding: 100px 8%;
+  } 
+
+  .profile-text-name {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .kana {
+    font-size: 1.4rem;
+  }
+  
+  .profile-text-birthday {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .profile-text-message {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }  
+
+  .profile-image-wrapper {
+    position: relative;
+    width: 80%;
+    min-width: 80%;
+  }
+
+
+}
