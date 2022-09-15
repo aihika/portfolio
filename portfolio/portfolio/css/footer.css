@@ -1,0 +1,14 @@
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .footer-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+}

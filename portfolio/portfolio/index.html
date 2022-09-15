@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/others.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/js.css">
+  <title>Hikaru Aihara</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header-inner">
+     <h1 class="logo"><a href="index.html">Hikaru Aihara</a></h1> 
+      <nav class="nav">
+        <ul class="nav-items">
+          <li class="nav-item" id="nav_about">About</li>
+          <li class="nav-item" id="nav_projects">Projects</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-inner" id="hero_inner">
+      <div class="hero-text">
+        <p class="hero-text-sub">Hi, my name is</p>
+        <p class="hero-text-name">Hikaru Aihara.</p>
+        <p class="hero-text-description">This is my portfolio website.</p>
+        <a href="mailto:aihika.0903@gmail.com">
+          <div class="contact-box text-center">
+            <p class="contact-text">Contact</p>
+          </div>
+        </a>
+      </div>
+      <div class="hero-artwork">
+        <img src="images/hero-artwork.png" alt="artwork">
+      </div>
+    </div>
+    <div class="scroll-down" id="scroll_down"></div>
+  </div>
+
+  <main>
+    <section class="about-me" id="about">
+      <h2 class="about-me-title" id="about_me_title">About me</h2>
+      <div class="profile">
+        <div class="profile-inner">
+          <div class="profile-image-wrapper">
+            <div class="profile-image-border">
+              <img src="images/portrait.jpg" alt="A picture of me" class="profile-image">
+            </div>
+          </div>
+          <div class="profile-text">
+            <h3 class="profile-title">Profile</h3>
+            <div class="text-border"></div>
+            <p class="profile-text-name">相原　光 <span class="kana">（あいはら　ひかる）</span></p>
+            <p class="profile-text-birthday">1997年9月3日生まれ　大阪出身</p>
+            <p class="profile-text-message">はじめまして、ポートフォリオサイトをご覧いただきありがとうございます。大阪府出身、24歳の相原光と申します。私は関西学院大学を卒業後、デジタルハリウッド大阪校に入学しました。在学中はUI/UXデザインを中心に、DTPからIoTまで幅広く学びました。その後、株式会社エヴォワークスに入社し、フロントエンドエンジニアとしてLPやコーポレートサイトの制作に従事しています。また、社外ではデザイナーとしてスマートフォンサイトのUI/UXデザインにも携わっています。様々な制作に関わる中で、サービスの企画やマーケティングなどを踏まえた上流の工程に挑戦したいという気持ちが高まりました。経験としては浅いですが、新しい技術や情報も積極的に学んでいきたいと思っています。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="others">
+        <ul class="others-cards text-center">
+          <li class="others-card">
+            <span class="icon material-icons-outlined">school</span>
+            <h3 class="others-title">Education</h3>
+            <div class="text-border text-border-center"></div>
+            <dl class="education-list">
+              <dt class="education-year">2020</dt>
+              <dd>関西学院大学　卒業</dd>
+            </dl>
+  
+            <dl class="education-list">
+              <dt class="education-year">2021</dt>
+              <dd>デジタルハリウッド大阪校　卒業</dd>
+            </dl>
+          </li>
+          <li class="others-card">
+            <span class="icon material-icons-outlined">format_list_bulleted</span>
+            <h3 class="others-title">Qualifications</h3>
+            <div class="text-border text-border-center"></div>
+            <ul class="qualifications-list">
+              <li class="qualifications-list-item">
+                <span class="arrow-right material-icons-outlined">arrow_right</span>
+                TOEIC 930点
+              </li>
+            </ul>
+          </li>
+          <li class="others-card">
+            <span class="icon material-icons-outlined">favorite_border</span>
+            <h3 class="others-title">Likes</h3>
+            <div class="text-border text-border-center"></div>
+            <div class="likes-list">
+              <ul class="likes-list-horizontal">
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  料理
+                </li>
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  写真
+                </li>
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  ゴルフ
+                </li>
+              </ul>
+              <ul class="likes-list-horizontal">
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  読書
+                </li>
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  映画
+                </li>
+                <li class="likes-list-item">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  筋トレ
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <h3 class="skills-title text-center">Skills</h3>
+        <div class="text-border text-border-center"></div>
+        <ul class="skills-cards">
+          <li class="skills-card">
+            <h4 class="skills-card-title text-center">Tools</h4>
+            <div class="skills-bars">
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Adobe XD
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">90%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Illutrator
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">80%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Photoshop
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">80%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Lightroom
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">80%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  After Effects
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">70%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Premiere Pro
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">60%</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="skills-card">
+            <h4 class="skills-card-title text-center">Languages</h4>
+            <div class="skills-bars">
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  HTML
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">100%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  CSS
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">100%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Javascript
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">80%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  jQuery
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">80%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Three.js
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">60%</span>
+                </div>
+              </div>
+              <div class="skills-bar-row">
+                <h5 class="skills-bar-title">
+                  <span class="arrow-right material-icons-outlined">arrow_right</span>
+                  Tone.js
+                </h5>
+                <div class="skills-bar">
+                  <div class="skills-bar-fill"></div>
+                  <span class="skills-bar-value">50%</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title" id="projects_title">Projects</h2>
+
+      <div class="projects-inner">
+        <ul class="projects-cards text-center">
+          <li class="projects-card">
+            <a href="https://aihika.sakura.ne.jp/typetone/" target="_blank">
+              <div class="projects-image-wrapper">
+                <img src="images/web.png" alt="" class="projects-image">
+              </div>
+              <h3 class="projects-card-title">Web Development</h3>
+              <div class="text-border text-border-center"></div>
+              <div class="projects-card-text-wrapper">
+                <p class="projects-card-text">HTML / CSS / Javascript / Three.js / Tone.js</p>
+              </div>
+              <p class="see-more">
+                See more
+                <span class="icon material-icons-outlined">
+                open_in_new
+                </span>
+              </p>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a href="ui.html">
+              <div class="projects-image-wrapper">
+                <img src="images/ui.png" alt="" class="projects-image">
+              </div>
+              <h3 class="projects-card-title">UI Design & <br>Motion Graphics</h3>
+              <div class="text-border text-border-center"></div>
+              <div class="projects-card-text-wrapper">
+                <p class="projects-card-text">Adobe XD / After Effects</p>
+              </div>
+              <p class="see-more">
+                See more
+                <span class="icon material-icons-outlined">
+                open_in_new
+                </span>
+              </p>
+            </a>
+          </li>
+          <li class="projects-card">
+            <a href="graphic.html">
+              <div class="projects-image-wrapper">
+                <img src="images/infographic.png" alt="" class="projects-image">
+              </div>
+              <h3 class="projects-card-title">Graphic Design</h3>
+              <div class="text-border text-border-center"></div>
+              <div class="projects-card-text-wrapper">
+                <p class="projects-card-text">Illustrator</p>
+              </div>
+              <p class="see-more">
+                See more
+                <span class="icon material-icons-outlined">
+                open_in_new
+                </span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+        <div class="back-to-top text-center" id="back_to_top">
+          <span class="icon material-icons-outlined">arrow_circle_up</span>
+          <p class="back-to-top-text">Back to Top</p>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer text-center">
+    <p class="footer-text">Designed & Built by Hikaru Aihara</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
