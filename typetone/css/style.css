@@ -1,0 +1,94 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: hidden;
+  position: relative;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.title-wrapper {
+  color: #fff;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: default;
+}
+
+
+.backGround {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.btn-click {
+  color: #f0f0f0;
+  font-size: 2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+
+/************** Icons **************/
+.icon {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 4rem;
+}
+.icon:hover {
+  opacity: 0.5;
+}
+
+
+.icon-redo {
+  position: absolute;
+  bottom: 8%;
+  left: 8%;
+}
+
+
+.icons-play-wrapper {
+  position: absolute;
+  bottom: 8%;
+  right: 8%;
+}
+
+.icons-play {
+  display: flex;
+}
+
+.icon-playback {
+  transform: rotateY(180deg);
+}
+
+.icon-playback {
+  margin-right: 2rem;
+}
+.icon:last-child {
+  margin-right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+
+@media screen and (max-width: 414px) {
+  .title-image {
+    width: 300px;
+  }
+
+  .btn-click {
+    font-size: 1.5rem;
+  }
+}
